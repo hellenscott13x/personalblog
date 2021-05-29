@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset ="UTF-8">
+        <title>Hellen Scott's Blog</title>
+        <meta name="description" content="A webpage with my first HTML template." />
+        <style>
+        <link "href=https://blogmain.s3-us-west-1.amazonaws.com/Personalblog.css" type="text/css" rel="stylesheet"/>
+        </style>
+    </head>
+  <body>
+    <div class="flexContainer">
+        <div class="header">
+          <div class="logo" src=".png"> 
+          <div class="navmenu">
+            <button class="navbtn">Menu</button>
+            <div class="navmenu-content">
+            <a href="Personalbloghome.html">Home</a></li>
+            <a href="about.html">About</a></li>
+            <a href="https://sbushmanyoga.com">Yoga</a></li>
+            <a href="https://sarahbushman.com">Photos</a></li>
+    </div>
+  </div>
+      <div class="homepageContainer">
+        <div class="homepageText" id="one"></div>
+      <h1>Stay Here Now</h1>
+      <h2>A blog about staying present</h2>
+      <p>Lorem Ipsum</p>
+      <a class="btn" href="BlogPage1.html">This Week's Post</a>
+    </div>
+    <div class="homepageImage" id="two"><img src="https://blogmain.s3-us-west-1.amazonaws.com/images/kands.jpg">
+    </div>
+    <div class="footer">
+      <ul class="footer">
+        <li><a href="Personalbloghome.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://sbushmanyoga.com">Yoga</a></li>
+        <li><a href="https://sarahbushman.com">Photos</a></li>
+      </ul>
+    </div>
+</div>
+  </body>
+</html>
